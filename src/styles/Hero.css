@@ -1,0 +1,98 @@
+.hero {
+    background-image: url('../assets/images/Log In.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+  }
+  
+ .job-img {
+    position: relative;
+    top: -10px;
+    right: -65px;
+  }
+  
+  .form h2 {
+    font-family: var(--jost);
+    color: var(--grey);
+  }
+  
+  .form p {
+    font-family: var(--jost);
+    color: var(--grey);
+  }
+  
+  .form input {
+    border: 1px solid var(--grey);
+  }  
+  
+  .form .log-btn {
+    background-color: #0DCAF0;
+    color: white;
+    height: 9vh;
+    font-family: var(--jost);
+    font-size: 18px;
+  }
+  .form label {
+    font-family: var(--jost);
+  }
+  
+  .eye-btn {
+    border: none;
+    position: relative;
+    right: -100px;
+    top: -60px;
+    background-color: transparent;
+  }
+  
+  .eye {
+    color:  var(--grey);
+    background-color: transparent;
+ }
+ .icons .facebook {
+  width: 25px;
+  height: 25px;
+ }
+ .icons .google {
+  width: 25px;
+  height: 25px;
+ }
+ .icons .linkedin {
+  width: 25px;
+  height: 25px
+ }
+ 
+  
+ @media(min-width: 1024px) {
+  .hero {
+    height: 100vh;
+  }
+    .form {
+        width: 50%;
+        margin-top: 5px;
+    }
+    .form-control {
+        width: 30%;
+    }
+    .log-btn {
+        width: 20%;
+    }
+    .eye-btn {
+      position: relative;
+      right: -400px;
+    }
+    .job-img {
+      position: relative;
+      top: -10px;
+      right: 20px;
+    }
+    .welcome {
+      margin-top: -15px;
+    }
+ }

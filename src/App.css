@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Mansalva&family=Palanquin+Dark:wght@500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --palanquin: 'Palanquin Dark',sans-serif;
+  --jost: 'Jost', sans-serif;
+  --grey: #6e6e6e;
+}
+

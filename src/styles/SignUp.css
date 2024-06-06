@@ -1,0 +1,116 @@
+ .sign-up {
+    background-image: url('../assets/images/Sign up 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+  }
+
+  .form-2 {
+    width: 95%;
+    background-color: white;
+    opacity: 0.9;
+  }
+
+  .form-2 h2 {
+    font-family: var(--jost);
+    color: var(--grey);
+  }
+  
+  .form-2 p {
+    font-family: var(--jost);
+    color: var(--grey);
+  }
+  
+  .form-2 input {
+    border: 1px solid var(--grey);
+  }
+  
+  
+  .form-2 .log-btn {
+    background-color: #0DCAF0;
+    color: white;
+    height: 7vh;
+    font-family: var(--jost);
+    font-size: 18px;
+  }
+  .form-2 label {
+    font-family: var(--jost);
+  }
+
+  .eyes-btn {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top: -88px;
+    right: -75px;
+  }
+  
+  .eyes {
+    color:  var(--grey);
+    background-color: transparent;
+  }
+
+  .eyes-btn2 {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top: -42px;
+    right: -60px;
+  }
+  
+  .eyes2 {
+    color:  var(--grey);
+    background-color: transparent;
+  }
+ .form-2 .sign-img {
+    position: relative;
+    top: -15px;
+    right: -64px;
+    height: 25px;
+  }
+ 
+  .form-2 .sign {
+    position: relative;
+    top: -10px;
+  }
+
+  @media(min-width: 1024px) {
+    .form-2 {
+      width: 50%;
+    } 
+    
+    .sign {
+      font-size: 24px;
+      margin-top: -15px;
+    }
+    .parax {
+      font-size: 24px;
+      margin-top: -17px;
+    }
+    .input {
+      height: 7vh;
+      width: 100%;
+    }
+    .form-2 .log-btn {
+      height: 6vh;
+    }
+    .eyes-btn {
+      position: relative;
+      right: -410px;
+      top: -96px;
+    }
+    .eyes-btn2 {
+      position: relative;
+      right: -395px;
+      top: -43px;
+    }
+    .sign-img {
+      position: relative;
+      left: 10px;
+      top: -40px;
+      height: 25px;
+    }
+
+  }

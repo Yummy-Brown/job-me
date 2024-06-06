@@ -1,0 +1,150 @@
+.contact-div h2 {
+    position: relative;
+    top: 140px;
+}
+.contact-div p {
+    position: relative;
+    top: 150px;
+}
+.contact-input {
+    width: 115%;
+}
+.input-div {
+    position: relative;
+    right: 18px;
+}
+.job-form {
+    background-color: #DBF7FD;
+    position: relative;
+    top: -10px;
+    font-family: var(--jost);
+}
+.job-form button {
+    background-color: #0DCAF0;
+    border: none;
+    height: 7vh;
+    width: 50%;
+}
+.job-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.job-form textarea {
+    position: relative;
+    top: -20px;
+    
+}
+.cover {
+    position: relative;
+    top: -20px;   
+}
+.icon-border {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.profile a {
+    display: flex;
+    align-items: start;
+    
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+.yummy {
+    margin-top: -10px;
+}
+.app-success {
+    font-family: var(--jost);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+.proceed {
+    font-family: var(--jost);
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 8px;
+}
+.agree {
+    font-size: 13px;
+}
+.info {
+    font-family: var(--jost);
+    font-weight: 700;
+}
+.check-para {
+    font-size: 13px;
+}
+.footer-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.icons-div {
+    display: flex;
+    gap: 10px;
+}
+.footer-div2 ul  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media(min-width: 1024px) {
+    .job-form {
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+        font-family: var(--jost); 
+        padding-bottom: 50px;
+        height: 100vh;
+    }
+    .contact-input {
+        width: 160%;
+    }
+    .input-div {
+        display: flex;
+        align-items: center;
+        gap: 130px;
+    }
+    .input2 {
+        position: relative;
+        top: 12px;
+    }
+    .footer-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 350px;
+    }
+    .contact-footer hr {
+        width: 100%;
+        position: relative;
+        right: 30px;
+    }
+    .footer-div2 ul  {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        position: relative;
+        top: 10px;
+    }
+    .job-form button {
+        background-color: #0DCAF0;
+        border: none;
+        position: relative;
+        top: 20px;
+        left: -230px;
+        width: 20%;
+    }
+    .agree {
+        position: relative;
+        top: -16px;
+    }
+}

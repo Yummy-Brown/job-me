@@ -1,0 +1,155 @@
+@media(max-width: 768px) {
+.home {
+    background-image: url('./assets/images/Hero Section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+  }
+
+.button {
+  background-color: #0DCAF0;
+  color: white;
+  height: 9vh;
+  font-family: var(--jost);
+  font-size: 18px;
+}
+
+.ms-auto .log {
+  background-color: #0DCAF0;
+  color: white;
+  height: 7vh;
+  font-family: var(--jost);
+  font-size: 18px; 
+}
+
+.ms-auto .sign {
+  height: 7vh;
+  font-family: var(--jost);
+  font-size: 18px; 
+  margin: -15px;
+}
+.ms-auto Link {
+  font-family: var(--jost); 
+} 
+.nav-linkx:hover {
+  cursor: pointer;
+  color: #0DCAF0;
+}
+ .find {
+  position: relative;
+  top: 190px;
+  font-family: var(--jost);
+  font-size: 22px;
+ }
+ .home-form {
+  position: relative;
+  top: 150px;
+ }
+ .home-form {
+  background: #0DCAF066;
+  ;
+  width: 100%;
+ }
+ .input-div {
+  padding: 20px 20px;
+ }
+ .home-form select {
+  border: 1px solid black;
+  font-weight: 500;
+  font-family: var(--jost);
+ }
+ .home-form option {
+  color: black;
+ }
+ .home-form {
+  display: none;
+ }
+ .jobs-btn2 {
+  background-color: #0DCAF0;
+  color: white;
+  font-family: var(--jost);
+  position: relative;
+  left: 120px;
+  top: 200px;
+  height: 7vh;
+  width: 30%;
+  margin-top: 10px;
+  border: none;
+ }
+ .nav-div {
+  z-index: 5;
+  position: sticky;
+  top: 0;
+ }
+}
+
+@media(min-width: 1024px) {
+  .home {
+    background-image: url('./assets/images/Hero Section.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+  }
+  .find {
+    position: relative;
+    top: 190px;
+    font-family: var(--jost);
+    font-size: 22px;
+   }
+   .input-div {
+    padding: 20px 20px;
+   }
+  .home-form {
+    background: #0DCAF066;
+    width: 100%;
+   }
+   .home-form select {
+    border: 1px solid black;
+    font-weight: 500;
+    font-family: var(--jost);
+   }
+  .find {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: -100px;
+  }
+  .home-form select {
+    height: 8vh;
+    padding: 40px 40px;
+    margin: 20px 20px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+  }
+  .jobs-btn {
+    background-color: #0DCAF0;
+    color: white;
+    font-family: var(--jost);
+    position: relative;
+    left: 120px;
+    height: 7.5vh;
+    width: 8%;
+    position: relative;
+    bottom: 20px;
+    border: none;
+
+  }
+  .home-form {
+    position: relative;
+    top: 240px;
+    height: 14vh;
+  }
+  .form .form-input {
+    width: 100%;
+  }
+  .find {
+    position: relative;
+    top: 200px;
+  }
+  .jobs-btn2 {
+    display: none;
+  }
+}
+
